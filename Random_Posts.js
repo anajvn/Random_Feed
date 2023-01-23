@@ -20,7 +20,7 @@ class User{
 
 console.log("FEED");
 
-for(let i=0; i<5; i++){
+for(let i=0; i<15; i++){
     const randomName = faker.name.firstName();
     const randomUsername = faker.internet.userName(randomName);
     let user = new User(randomName, randomUsername);
